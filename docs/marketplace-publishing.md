@@ -1,6 +1,6 @@
 # Marketplace publishing
 
-The extension is published as `Fantasia040506.codex-drag-context`. Version 0.1.1 was published on November 2, 2026; the publish job succeeded and the public gallery API returned the version and VSIX asset.
+The extension was submitted as `Fantasia040506.codex-drag-context` on November 2, 2026. The 0.1.1 publish job succeeded, and the public gallery API returned the version and a downloadable VSIX asset. At the last check, the version validation flag was not yet set and the listing page returned HTTP 404; public listing availability remains unconfirmed.
 
 Listing: https://marketplace.visualstudio.com/items?itemName=Fantasia040506.codex-drag-context
 

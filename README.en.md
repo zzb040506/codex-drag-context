@@ -40,7 +40,7 @@ Alternatively, right-click selected resources → **Codex: Add File or Folder to
 code --install-extension Fantasia040506.codex-drag-context
 ```
 
-**Available on VS Code Marketplace** as `Fantasia040506.codex-drag-context`, starting with version 0.1.1. For VSIX installation, download a package from [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest), then use Extensions → `…` → **Install from VSIX…**. See the [Marketplace publishing guide](docs/marketplace-publishing.md).
+**Marketplace publication submitted** as `Fantasia040506.codex-drag-context`: version 0.1.1 has been accepted and its package is downloadable through the public gallery API. At the last check, its validation flag was not yet set and the listing page returned 404. Use Marketplace installation once the listing becomes available. For VSIX installation, download a package from [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest), then use Extensions → `…` → **Install from VSIX…**. See the [Marketplace publishing guide](docs/marketplace-publishing.md).
 
 **Migration:** disable or uninstall `local.codex-drag-context` before installing the Marketplace version, because the changed publisher creates a separate extension ID and can cause duplicate views and commands.
 

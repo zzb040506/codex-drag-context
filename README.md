@@ -43,7 +43,7 @@ Codex Drag Context 在 VS Code 资源管理器里增加一个小小的 **Codex C
 code --install-extension Fantasia040506.codex-drag-context
 ```
 
-**已上架 VS Code Marketplace**：扩展 ID 为 `Fantasia040506.codex-drag-context`，首个商店版本为 0.1.1。也可以从 [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest) 下载 VSIX，通过扩展面板的 **Install from VSIX… / 从 VSIX 安装…** 安装。发布流程见 [Marketplace 发布指南](docs/marketplace-publishing.md)。
+**Marketplace 发布已提交**：扩展 ID 为 `Fantasia040506.codex-drag-context`，版本 0.1.1 已被商店接收，公开接口可以查询并下载。最后核实时，版本验证标记尚未完成、详情页仍返回 404；商店安装方式请在页面可用后使用。也可以从 [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest) 下载 VSIX，通过扩展面板的 **Install from VSIX… / 从 VSIX 安装…** 安装。发布流程见 [Marketplace 发布指南](docs/marketplace-publishing.md)。
 
 **旧版迁移**：安装商店版前，请先禁用或卸载 `local.codex-drag-context`，避免两个扩展同时提供相同视图与命令。
 
