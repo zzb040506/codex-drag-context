@@ -6,7 +6,7 @@
 
 把资源管理器中的文件拖进 **Codex Context**，把注意力留给真正要解决的问题。
 
-[English](README.en.md) · [下载安装包](https://github.com/zzb040506/codex-drag-context/releases/latest) · [报告问题](https://github.com/zzb040506/codex-drag-context/issues)
+[English](README.en.md) · [VS Code 商店](https://marketplace.visualstudio.com/items?itemName=Fantasia040506.codex-drag-context) · [下载安装包](https://github.com/zzb040506/codex-drag-context/releases/latest) · [报告问题](https://github.com/zzb040506/codex-drag-context/issues)
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-82efc5)
 ![VS Code](https://img.shields.io/badge/VS_Code-1.96%2B-007ACC)
@@ -33,19 +33,19 @@ Codex Drag Context 在 VS Code 资源管理器里增加一个小小的 **Codex C
 ## 1 分钟安装
 
 1. 在 VS Code 中安装并登录 OpenAI 官方 **Codex** 扩展（扩展 ID：`openai.chatgpt`）。
-2. 从 [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest) 下载 `codex-drag-context-0.1.0.vsix`。
-3. 打开 VS Code 扩展面板，点击右上角 `…` → **Install from VSIX… / 从 VSIX 安装…**，选择下载的文件。
+2. 在扩展面板搜索 `Fantasia040506.codex-drag-context`，或打开 [VS Code 商店页面](https://marketplace.visualstudio.com/items?itemName=Fantasia040506.codex-drag-context)。
+3. 点击 **Install / 安装**。
 4. 如果 VS Code 提示重新加载窗口，按提示操作。在左侧资源管理器中展开 **Codex Context**。
 
 也可以用终端安装：
 
 ```sh
-code --install-extension ./codex-drag-context-0.1.0.vsix
+code --install-extension Fantasia040506.codex-drag-context
 ```
 
-目前可下载安装的版本仍通过 GitHub Release 分发，尚未确认上架 Marketplace。0.1.0 安装包使用 `local` publisher；当前 0.1.1 商店候选版使用已创建的发布者 `Fantasia040506`，商店上架状态仍待验证。发布流程见 [Marketplace 发布指南](docs/marketplace-publishing.md)。
+**已上架 VS Code Marketplace**：扩展 ID 为 `Fantasia040506.codex-drag-context`，首个商店版本为 0.1.1。也可以从 [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest) 下载 VSIX，通过扩展面板的 **Install from VSIX… / 从 VSIX 安装…** 安装。发布流程见 [Marketplace 发布指南](docs/marketplace-publishing.md)。
 
-**旧版迁移**：安装商店候选版前，请先禁用或卸载 `local.codex-drag-context`，避免两个扩展同时提供相同视图与命令。
+**旧版迁移**：安装商店版前，请先禁用或卸载 `local.codex-drag-context`，避免两个扩展同时提供相同视图与命令。
 
 ## 怎么用
 

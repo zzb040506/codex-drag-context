@@ -1,6 +1,8 @@
 # Marketplace publishing
 
-The Marketplace candidate uses publisher ID `Fantasia040506`, producing extension ID `Fantasia040506.codex-drag-context`. The publisher has been created; the first Marketplace publication remains pending verification. Do not advertise this extension as listed until the publish job succeeds and the public listing is verified.
+The extension is published as `Fantasia040506.codex-drag-context`. Version 0.1.1 was published on November 2, 2026; the publish job succeeded and the public gallery API returned the version and VSIX asset.
+
+Listing: https://marketplace.visualstudio.com/items?itemName=Fantasia040506.codex-drag-context
 
 ## One-time publisher setup
 
@@ -33,7 +35,7 @@ For later versions, increment the package version and lockfile, update the chang
 
 ## Existing local installations
 
-The original 0.1.0 VSIX used ID `local.codex-drag-context`. The Marketplace candidate uses `Fantasia040506.codex-drag-context`, so VS Code treats it as a separate extension. Disable or uninstall the old **local** copy before enabling the new one to avoid duplicate views and commands. Switching IDs does not migrate installed extensions automatically.
+The original 0.1.0 VSIX used ID `local.codex-drag-context`. The Marketplace version uses `Fantasia040506.codex-drag-context`, so VS Code treats it as a separate extension. Disable or uninstall the old **local** copy before enabling the new one to avoid duplicate views and commands. Switching IDs does not migrate installed extensions automatically.
 
 ## Reference
 

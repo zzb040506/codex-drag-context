@@ -6,7 +6,7 @@
 
 Send files from the VS Code Explorer to Codex through a dedicated drop zone.
 
-[中文](README.md) · [Download VSIX](https://github.com/zzb040506/codex-drag-context/releases/latest) · [Report an issue](https://github.com/zzb040506/codex-drag-context/issues)
+[中文](README.md) · [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Fantasia040506.codex-drag-context) · [Download VSIX](https://github.com/zzb040506/codex-drag-context/releases/latest) · [Report an issue](https://github.com/zzb040506/codex-drag-context/issues)
 
 ![Workflow illustration, not a screenshot](assets/workflow.png)
 
@@ -28,8 +28,8 @@ Codex Drag Context adds a **Codex Context** view to Explorer:
 ## Install and use
 
 1. Install and sign in to the official OpenAI **Codex** extension (`openai.chatgpt`).
-2. Download `codex-drag-context-0.1.0.vsix` from [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest).
-3. In VS Code, open Extensions → `…` → **Install from VSIX…**. Reload if prompted.
+2. Search Extensions for `Fantasia040506.codex-drag-context`, or open its [Marketplace page](https://marketplace.visualstudio.com/items?itemName=Fantasia040506.codex-drag-context).
+3. Click **Install**. Reload if prompted.
 4. Open a local project and your intended Codex conversation.
 5. Expand **Explorer → Codex Context**, then drop files onto **Drop files or folders here**.
 6. Check that references appear in Codex, write your prompt, and send it yourself.
@@ -37,12 +37,12 @@ Codex Drag Context adds a **Codex Context** view to Explorer:
 Alternatively, right-click selected resources → **Codex: Add File or Folder to Codex Chat**, or run **Codex: Choose Files or Folders for Codex** from the command palette.
 
 ```sh
-code --install-extension ./codex-drag-context-0.1.0.vsix
+code --install-extension Fantasia040506.codex-drag-context
 ```
 
-Existing downloads are distributed through GitHub Releases; Marketplace availability has not been confirmed. The 0.1.0 VSIX uses publisher `local`. The 0.1.1 Marketplace candidate uses the created publisher `Fantasia040506`; Marketplace publication remains pending verification. See the [Marketplace publishing guide](docs/marketplace-publishing.md).
+**Available on VS Code Marketplace** as `Fantasia040506.codex-drag-context`, starting with version 0.1.1. For VSIX installation, download a package from [Releases](https://github.com/zzb040506/codex-drag-context/releases/latest), then use Extensions → `…` → **Install from VSIX…**. See the [Marketplace publishing guide](docs/marketplace-publishing.md).
 
-**Migration:** disable or uninstall `local.codex-drag-context` before installing the new candidate, because the changed publisher creates a separate extension ID and can cause duplicate views and commands.
+**Migration:** disable or uninstall `local.codex-drag-context` before installing the Marketplace version, because the changed publisher creates a separate extension ID and can cause duplicate views and commands.
 
 ## Compatibility and limitations
 

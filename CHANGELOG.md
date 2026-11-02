@@ -1,9 +1,9 @@
 # Changelog
 
-## 0.1.1 — Unreleased
+## 0.1.1 — 2026-11-02
 
-- Prepare Marketplace metadata, original PNG icon, and dark gallery banner.
-- Change the candidate publisher to `Fantasia040506`; Marketplace publication remains pending.
+- Add Marketplace metadata, original PNG icon, and dark gallery banner.
+- Publish to VS Code Marketplace as `Fantasia040506.codex-drag-context`.
 - Add a manual GitHub Actions OIDC publishing workflow and setup guide.
 - Upgrade and pin `@vscode/vsce` to 4.1.0 for OIDC support.
 - Document migration from the original `local.codex-drag-context` extension ID.
