@@ -3,7 +3,7 @@
   "displayName": "Codex Drag Context",
   "description": "Send Explorer files and folder references to Codex through a dedicated drop zone.",
   "version": "0.1.1",
-  "publisher": "zzb040506",
+  "publisher": "Fantasia040506",
   "license": "MIT",
   "engines": {
     "vscode": "^1.96.0"

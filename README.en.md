@@ -40,7 +40,7 @@ Alternatively, right-click selected resources → **Codex: Add File or Folder to
 code --install-extension ./codex-drag-context-0.1.0.vsix
 ```
 
-Existing downloads are distributed through GitHub Releases; Marketplace availability has not been confirmed. The 0.1.0 VSIX uses publisher `local`. The 0.1.1 Marketplace candidate uses `zzb040506`, pending ownership and publication verification. See the [Marketplace publishing guide](docs/marketplace-publishing.md).
+Existing downloads are distributed through GitHub Releases; Marketplace availability has not been confirmed. The 0.1.0 VSIX uses publisher `local`. The 0.1.1 Marketplace candidate uses the created publisher `Fantasia040506`; Marketplace publication remains pending verification. See the [Marketplace publishing guide](docs/marketplace-publishing.md).
 
 **Migration:** disable or uninstall `local.codex-drag-context` before installing the new candidate, because the changed publisher creates a separate extension ID and can cause duplicate views and commands.
 

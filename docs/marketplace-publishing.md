@@ -1,10 +1,10 @@
 # Marketplace publishing
 
-The Marketplace candidate uses publisher ID `zzb040506`, producing extension ID `zzb040506.codex-drag-context`. Publisher ownership and the first Marketplace publication are pending verification. Do not advertise this extension as listed until the publish job succeeds and the public listing is verified.
+The Marketplace candidate uses publisher ID `Fantasia040506`, producing extension ID `Fantasia040506.codex-drag-context`. The publisher has been created; the first Marketplace publication remains pending verification. Do not advertise this extension as listed until the publish job succeeds and the public listing is verified.
 
 ## One-time publisher setup
 
-Sign in at https://marketplace.visualstudio.com/manage with the Microsoft account that will own the extension. Create a publisher with ID `zzb040506` if it is available, or open that publisher if you already own it. The ID is permanent. If you use another publisher ID, update `package.json` and this document before publishing.
+Sign in at https://marketplace.visualstudio.com/manage with the Microsoft account that will own the extension. Open the existing publisher with ID `Fantasia040506`. The ID is permanent. If you use another publisher ID, update `package.json` and this document before publishing.
 
 Open **Trusted Publishing**, create a policy, and enter:
 
@@ -33,7 +33,7 @@ For later versions, increment the package version and lockfile, update the chang
 
 ## Existing local installations
 
-The original 0.1.0 VSIX used ID `local.codex-drag-context`. The Marketplace candidate uses `zzb040506.codex-drag-context`, so VS Code treats it as a separate extension. Disable or uninstall the old **local** copy before enabling the new one to avoid duplicate views and commands. Switching IDs does not migrate installed extensions automatically.
+The original 0.1.0 VSIX used ID `local.codex-drag-context`. The Marketplace candidate uses `Fantasia040506.codex-drag-context`, so VS Code treats it as a separate extension. Disable or uninstall the old **local** copy before enabling the new one to avoid duplicate views and commands. Switching IDs does not migrate installed extensions automatically.
 
 ## Reference
 

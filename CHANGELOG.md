@@ -3,7 +3,7 @@
 ## 0.1.1 — Unreleased
 
 - Prepare Marketplace metadata, original PNG icon, and dark gallery banner.
-- Change the candidate publisher to `zzb040506`; Marketplace ownership and publication remain pending.
+- Change the candidate publisher to `Fantasia040506`; Marketplace publication remains pending.
 - Add a manual GitHub Actions OIDC publishing workflow and setup guide.
 - Upgrade and pin `@vscode/vsce` to 4.1.0 for OIDC support.
 - Document migration from the original `local.codex-drag-context` extension ID.

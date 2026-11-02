@@ -43,7 +43,7 @@ Codex Drag Context 在 VS Code 资源管理器里增加一个小小的 **Codex C
 code --install-extension ./codex-drag-context-0.1.0.vsix
 ```
 
-目前可下载安装的版本仍通过 GitHub Release 分发，尚未确认上架 Marketplace。0.1.0 安装包使用 `local` publisher；当前 0.1.1 商店候选版使用 `zzb040506`，发布身份及上架状态待验证。发布流程见 [Marketplace 发布指南](docs/marketplace-publishing.md)。
+目前可下载安装的版本仍通过 GitHub Release 分发，尚未确认上架 Marketplace。0.1.0 安装包使用 `local` publisher；当前 0.1.1 商店候选版使用已创建的发布者 `Fantasia040506`，商店上架状态仍待验证。发布流程见 [Marketplace 发布指南](docs/marketplace-publishing.md)。
 
 **旧版迁移**：安装商店候选版前，请先禁用或卸载 `local.codex-drag-context`，避免两个扩展同时提供相同视图与命令。
 

@@ -37,7 +37,7 @@ The initial release is 0.1.0. To prepare a later release:
 3. Push the commit, then an annotated `vX.Y.Z` tag matching the package version.
 4. The release workflow runs checks, builds the VSIX, and publishes a GitHub Release with generated notes. Review its notes and add compatibility evidence.
 
-The 0.1.1 Marketplace candidate switches the publisher from `local` to `zzb040506`, pending ownership verification. This changes the extension ID. Users must disable or uninstall the local copy before enabling the new one. See [Marketplace publishing](docs/marketplace-publishing.md) for publisher setup and the OIDC workflow.
+The 0.1.1 Marketplace candidate switches the publisher from `local` to the created publisher `Fantasia040506`. This changes the extension ID. Users must disable or uninstall the local copy before enabling the new one. See [Marketplace publishing](docs/marketplace-publishing.md) for publisher setup and the OIDC workflow.
 
 ## Reporting problems
 
