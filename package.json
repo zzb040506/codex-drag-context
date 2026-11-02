@@ -2,14 +2,15 @@
   "name": "codex-drag-context",
   "displayName": "Codex Drag Context",
   "description": "Send Explorer files and folder references to Codex through a dedicated drop zone.",
-  "version": "0.1.0",
-  "publisher": "local",
+  "version": "0.1.1",
+  "publisher": "zzb040506",
   "license": "MIT",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Productivity"
   ],
   "keywords": [
     "codex",
@@ -70,10 +71,11 @@
   "scripts": {
     "check": "node --check extension.js && node --check context-sender.js && node --check scripts/publish-github.js && node --test test/*.test.js",
     "package": "vsce package",
-    "publish:github": "node scripts/publish-github.js"
+    "publish:github": "node scripts/publish-github.js",
+    "publish:marketplace": "vsce publish --oidc"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.6.2"
+    "@vscode/vsce": "4.1.0"
   },
   "repository": {
     "type": "git",
@@ -83,5 +85,10 @@
   "bugs": {
     "url": "https://github.com/zzb040506/codex-drag-context/issues"
   },
-  "author": "zzb040506"
+  "author": "zzb040506",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#101c2f",
+    "theme": "dark"
+  }
 }

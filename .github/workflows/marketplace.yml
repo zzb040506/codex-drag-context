@@ -1,0 +1,31 @@
+name: Publish to VS Code Marketplace
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: marketplace-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run package
+      - name: Preserve the exact Marketplace package
+        uses: actions/upload-artifact@v4
+        with:
+          name: marketplace-vsix
+          path: '*.vsix'
+      - name: Publish with Marketplace Trusted Publishing
+        run: npx vsce publish --oidc --packagePath "codex-drag-context-$(node -p "require('./package.json').version").vsix"

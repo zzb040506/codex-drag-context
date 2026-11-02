@@ -6,7 +6,7 @@ test/**
 *.vsix
 package-lock.json
 CONTRIBUTING.md
-CHANGELOG.md
 README.en.md
 .gitignore
 scripts/**
+docs/**

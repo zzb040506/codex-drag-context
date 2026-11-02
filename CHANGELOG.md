@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 — Unreleased
+
+- Prepare Marketplace metadata, original PNG icon, and dark gallery banner.
+- Change the candidate publisher to `zzb040506`; Marketplace ownership and publication remain pending.
+- Add a manual GitHub Actions OIDC publishing workflow and setup guide.
+- Upgrade and pin `@vscode/vsce` to 4.1.0 for OIDC support.
+- Document migration from the original `local.codex-drag-context` extension ID.
+
 ## 0.1.0 — 2026-11-02
 
 Initial community preview.
