@@ -1,0 +1,13 @@
+name: Feature request / 功能建议
+description: Explain a workflow that could be simpler.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Workflow and pain point / 场景与痛点
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior / 期望行为

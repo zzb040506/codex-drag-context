@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="390" viewBox="0 0 1120 390" role="img" aria-labelledby="title desc">
+<title id="title">Codex Drag Context workflow</title><desc id="desc">Select files in Explorer, drop them on Codex Context, then write your prompt in Codex. Concept illustration, not a screenshot.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c2f"/><stop offset="1" stop-color="#19243a"/></linearGradient></defs>
+<rect width="1120" height="390" rx="22" fill="url(#bg)"/>
+<g font-family="system-ui, sans-serif"><text x="48" y="57" fill="#82efc5" font-size="16" font-weight="600">CODEX DRAG CONTEXT</text><text x="48" y="101" fill="#ffffff" font-size="31" font-weight="700">Less path copying. More coding.</text>
+<rect x="48" y="144" width="285" height="170" rx="14" fill="#24334b"/><text x="70" y="176" fill="#b9c7dd" font-size="14">01 / EXPLORER</text><text x="70" y="215" fill="#fff" font-size="18">src/auth.ts</text><text x="70" y="247" fill="#fff" font-size="18">tests/auth.test.ts</text><text x="70" y="279" fill="#9eacc2" font-size="17">Select your context</text>
+<path d="M351 229h40m-9-9 9 9-9 9" stroke="#82efc5" stroke-width="3" fill="none"/>
+<rect x="409" y="144" width="285" height="170" rx="14" fill="#183d3d" stroke="#82efc5" stroke-dasharray="7 5"/><text x="431" y="176" fill="#82efc5" font-size="14">02 / CODEX CONTEXT</text><text x="431" y="223" fill="#fff" font-size="20">Drop files or folders here</text><text x="431" y="268" fill="#c7dedb" font-size="17">A dedicated Explorer view</text>
+<path d="M712 229h40m-9-9 9 9-9 9" stroke="#82efc5" stroke-width="3" fill="none"/>
+<rect x="770" y="144" width="302" height="170" rx="14" fill="#24334b"/><text x="792" y="176" fill="#b9c7dd" font-size="14">03 / CODEX CHAT</text><text x="792" y="220" fill="#fff" font-size="18">References sent.</text><text x="792" y="252" fill="#fff" font-size="18">Write your prompt.</text><text x="792" y="283" fill="#9eacc2" font-size="17">Review, then send.</text>
+<text x="48" y="356" fill="#9eacc2" font-size="14">Workflow illustration · Companion extension · Local file references · No automatic prompt submission</text></g></svg>

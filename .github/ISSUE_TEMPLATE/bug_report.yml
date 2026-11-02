@@ -1,0 +1,21 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem with file handoff.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: OS, VS Code version, Codex version, and this extension version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and result / 操作与结果
+      description: Include input type (file/folder, local/remote), entry point, expected result, and actual result. Remove sensitive paths and tokens.
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error message / 错误文本

@@ -1,0 +1,87 @@
+{
+  "name": "codex-drag-context",
+  "displayName": "Codex Drag Context",
+  "description": "Send Explorer files and folder references to Codex through a dedicated drop zone.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "codex",
+    "openai",
+    "drag and drop",
+    "context"
+  ],
+  "activationEvents": [
+    "onView:codexDragContext.dropView",
+    "onCommand:codexDragContext.addToCodex",
+    "onCommand:codexDragContext.pickAndAdd"
+  ],
+  "main": "./extension.js",
+  "extensionDependencies": [
+    "openai.chatgpt"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "codexDragContext.addToCodex",
+        "title": "Add File or Folder to Codex Chat",
+        "category": "Codex"
+      },
+      {
+        "command": "codexDragContext.pickAndAdd",
+        "title": "Choose Files or Folders for Codex",
+        "category": "Codex",
+        "icon": "$(add)"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "codexDragContext.dropView",
+          "name": "Codex Context",
+          "icon": "$(sparkle)",
+          "visibility": "visible"
+        }
+      ]
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "codexDragContext.addToCodex",
+          "when": "isFileSystemResource",
+          "group": "codex@1"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "codexDragContext.pickAndAdd",
+          "when": "view == codexDragContext.dropView",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "check": "node --check extension.js && node --check context-sender.js && node --check scripts/publish-github.js && node --test test/*.test.js",
+    "package": "vsce package",
+    "publish:github": "node scripts/publish-github.js"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzb040506/codex-drag-context.git"
+  },
+  "homepage": "https://github.com/zzb040506/codex-drag-context#readme",
+  "bugs": {
+    "url": "https://github.com/zzb040506/codex-drag-context/issues"
+  },
+  "author": "zzb040506"
+}
